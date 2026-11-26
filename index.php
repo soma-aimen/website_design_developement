@@ -1,243 +1,77 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nextcent - Landing Page</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-    <!-- Header -->
-    <header class="header">
-        <div class="container navbar">
-            <a href="#" class="logo">
-                <img src="images/Icon.png" alt="Nextcent Logo">
-            </a>
-
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#services">Service</a></li>
-                    <li><a href="#features">Feature</a></li>
-                    <li><a href="#products">Product</a></li>
-                    <li><a href="#testimonials">Testimonial</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                </ul>
-            </nav>
-
-            <a href="#" class="btn btn-primary">Register Now</a>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1>Lessons and insights <span>from 8 years</span></h1>
-                <p>
-                    Where to grow your business as a photographer:
-                    site or social media?
-                </p>
-                <a href="#" class="btn btn-primary">Register</a>
-            </div>
-
-            <div class="hero-image">
-                <img src="images/Illustration.png" alt="Online learning illustration">
-            </div>
-        </div>
-    </section>
-
-    <!-- Clients Section -->
-    <section class="clients container">
-        <h2>Our Clients</h2>
-        <p>We have been working with some Fortune 500+ clients</p>
-
-        <div class="client-logos">
-            <span>Logoipsum</span>
-            <span>Company</span>
-            <span>Brand</span>
-            <span>Company</span>
-            <span>Logoipsum</span>
-            <span>Brand</span>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services container" id="services">
-        <h2>Manage your entire community<br>in a single system</h2>
-        <p>Who is Nextcent suitable for?</p>
-
-        <div class="service-cards">
-            <div class="service-card">
-                <div class="service-icon">👥</div>
-                <h3>Membership Organisations</h3>
-                <p>
-                    Our membership management software provides
-                    full automation of membership renewals and payments.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon">🏛️</div>
-                <h3>National Associations</h3>
-                <p>
-                    Manage your association and make communication
-                    with your members easier.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon">🏢</div>
-                <h3>Clubs And Groups</h3>
-                <p>
-                    Build stronger communities with simple
-                    and effective management tools.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features container" id="features">
-        <div class="feature-image">
-            <img src="https://illustrations.popsy.co/gray/creative-work.svg"
-                 alt="Business growth illustration">
-        </div>
-
-        <div class="feature-text">
-            <h2>The unseen of spending three years at Pixelgrade</h2>
-            <p>
-                Learn how to manage your business more effectively
-                with tools designed to save time and improve productivity.
-            </p>
-            <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-    </section>
-
-    <!-- Business Statistics -->
-    <section class="statistics" id="products">
-        <div class="container statistics-content">
-            <div>
-                <h2>Helping a local <span>business reinvent itself</span></h2>
-                <p>We reached here with our hard work and dedication.</p>
-            </div>
-
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <h3>2,245,341</h3>
-                    <p>Members</p>
-                </div>
-
-                <div class="stat-item">
-                    <h3>46,328</h3>
-                    <p>Clubs</p>
-                </div>
-
-                <div class="stat-item">
-                    <h3>828,867</h3>
-                    <p>Event Bookings</p>
-                </div>
-
-                <div class="stat-item">
-                    <h3>1,926,436</h3>
-                    <p>Payments</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonial Section -->
-    <section class="testimonial container" id="testimonials">
-        <div class="testimonial-image">
-            <img src="https://illustrations.popsy.co/gray/online-presentation.svg"
-                 alt="Customer testimonial illustration">
-        </div>
-
-        <div class="testimonial-text">
-            <p>
-                "We have enjoyed working with the Nextcent system.
-                It has helped us improve our management process
-                and communicate more effectively with our members."
-            </p>
-
-            <h3>Tim Smith</h3>
-            <span>British Dragon Boat Racing Association</span>
-        </div>
-    </section>
-
-    <!-- Community Updates -->
-    <section class="community container" id="faq">
-        <h2>Caring is the new marketing</h2>
-        <p>
-            Discover our latest community updates, useful resources,
-            and ideas to help your organisation grow.
-        </p>
-
-        <div class="community-cards">
-            <div class="community-card">
-                <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600"
-                     alt="Team working together">
-                <div class="community-content">
-                    <h3>Creating Streamlined Processes</h3>
-                    <a href="#">Read More →</a>
-                </div>
-            </div>
-
-            <div class="community-card">
-                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600"
-                     alt="Business meeting">
-                <div class="community-content">
-                    <h3>How to Manage Your Team</h3>
-                    <a href="#">Read More →</a>
-                </div>
-            </div>
-
-            <div class="community-card">
-                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600"
-                     alt="Team collaboration">
-                <div class="community-content">
-                    <h3>Building Better Communities</h3>
-                    <a href="#">Read More →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <div>
-                <h2>Nextcent</h2>
-                <p>Copyright © 2026 Nextcent.</p>
-                <p>All rights reserved.</p>
-            </div>
-
-            <div>
-                <h3>Company</h3>
-                <a href="#">About Us</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact Us</a>
-            </div>
-
-            <div>
-                <h3>Support</h3>
-                <a href="#">Help Center</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Privacy Policy</a>
-            </div>
-
-            <div>
-                <h3>Stay Updated</h3>
-                <form>
-                    <input type="email" placeholder="Your email address">
-                    <button type="submit">→</button>
-                </form>
-            </div>
-        </div>
-    </footer>
-
-</body>
-</html>
+<?php
+$pageTitle = 'Nexcent | Lessons and insights from 8 years';
+include __DIR__ . '/includes/header.php';
+?>
+<section class="hero-section" id="home">
+  <div class="container hero-layout">
+    <div class="hero-copy">
+      <h1>Lessons and insights <span>from 8 years</span></h1>
+      <p class="hero-description">Where to grow your business as a photographer: website or social media?</p>
+      <a class="button" href="#blog">Register<span>→</span></a>
+    </div>
+    <div class="hero-art"><img src="assets/Illustration.png" alt="Illustration representing digital collaboration"></div>
+  </div>
+  <div class="hero-dots" aria-hidden="true"><span class="selected"></span><span></span><span></span></div>
+</section>
+<section class="clients-section section-pad">
+  <div class="container">
+    <div class="section-heading"><h2>Our Clients</h2><p>We have been working with some Fortune 500+ clients</p></div>
+    <div class="client-logos">
+      <?php for ($i = 1; $i <= 7; $i++): ?><img src="assets/Logo<?= $i === 1 ? '' : ' (' . ($i - 1) . ')'; ?>.png" alt="Client logo <?= $i; ?>"><?php endfor; ?>
+    </div>
+  </div>
+</section>
+<section class="community-section section-pad" id="community">
+  <div class="container">
+    <div class="section-heading"><h2>Manage your entire community<br>in a single system</h2><p>Who is Nextcent suitable for?
+</p></div>
+    <div class="feature-grid">
+      <article class="feature-card"><div class="feature-icon"><img src="assets/Icon3.png" alt=""></div><h3>Membership<br>Organisations</h3><p>Our membership management software provides full automation of membership renewals and payments</p></article>
+      <article class="feature-card"><div class="feature-icon"><img src="assets/Icon (1).png" alt=""></div><h3>National<br>Associations</h3><p>Our membership management software provides full automation of membership renewals and payments</p></article>
+      <article class="feature-card"><div class="feature-icon"><img src="assets/Icon (2).png" alt=""></div><h3>Clubs And<br>Groups</h3><p>Our membership management software provides full automation of membership renewals and payments</p></article>
+    </div>
+  </div>
+</section>
+<section class="split-section section-pad" id="services">
+  <div class="container split-layout">
+    <div class="split-art"><img src="assets/rafiki.png" alt="People collaborating on a digital project"></div>
+    <div class="split-copy"><h2>The unseen of spending three years at Pixelgrade</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p><a class="button" href="#contact">Learn more <span>→</span></a></div>
+  </div>
+</section>
+<section class="stats-section section-pad">
+  <div class="container stats-layout">
+    <div class="stats-intro"><h2>How to design your site footer like we did <span>business reinvent itself</span></h2><p>Meaningful work. Measurable progress.</p></div>
+    <div class="stats-grid">
+      <div class="stat-item"><span class="stat-symbol">▦</span><div><strong>2,245,341</strong><small>Projects supported</small></div></div>
+      <div class="stat-item"><span class="stat-symbol">♙</span><div><strong>46,328</strong><small>Happy customers</small></div></div>
+      <div class="stat-item"><span class="stat-symbol">⌂</span><div><strong>828,867</strong><small>Ideas brought to life</small></div></div>
+      <div class="stat-item"><span class="stat-symbol">◷</span><div><strong>1,926,436</strong><small>Hours of dedication</small></div></div>
+    </div>
+  </div>
+</section>
+<section class="split-section split-reverse section-pad" id="portfolio">
+  <div class="container split-layout">
+    <div class="split-art"><img src="assets/pana.png" alt="Illustration of a team reviewing a project"></div>
+    <div class="split-copy"><h2>Helping a local business reinvent itself</h2><p>From the first idea to the final detail, we focus on the small decisions that make a digital experience feel effortless. Our process keeps your goals and your customers at the centre.</p><a class="button" href="#contact">Explore our work <span>→</span></a></div>
+  </div>
+</section>
+<section class="testimonial-section section-pad">
+  <div class="container testimonial-layout">
+    <div class="testimonial-mark">“</div>
+    <div><p class="testimonial-quote">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p><p class="testimonial-author">Tim Smith <span>British Dragon Boat Racing Association</span></p>
+      <div class="testimonial-bottom"><div class="mini-logos"><?php for ($i = 1; $i <= 5; $i++): ?><img src="assets/Logo<?= $i === 1 ? '' : ' (' . ($i - 1) . ')'; ?>.png" alt="Partner logo"><?php endfor; ?></div><a href="#contact" class="text-link">Meet our clients →</a></div>
+    </div>
+  </div>
+</section>
+<section class="blog-section section-pad" id="blog">
+  <div class="container">
+    <div class="section-heading"><h2>Caring is the new marketing</h2><p>The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p></div>
+    <div class="blog-grid">
+      <article class="blog-card"><img src="assets/image 18.png" alt="Person working on a laptop from home"><div class="blog-card-content"><h3>Creating Streamlined Safeguarding Processes with <br> OneRen</h3><a href="#contact">Read more →</a></div></article>
+      <article class="blog-card"><img src="assets/image 19.png" alt="Business analytics and planning on a laptop"><div class="blog-card-content"><h3>What are your safeguarding responsibilities and how can you manage them?</h3><a href="#contact">Read more →</a></div></article>
+      <article class="blog-card"><img src="assets/image 20.png" alt="Workspace with a laptop and digital content"><div class="blog-card-content"><h3>Revamping the Membership Model with Triathlon <br>Australia</h3><a href="#contact">Read more →</a></div></article>
+    </div>
+  </div>
+</section>
+<section class="cta-section" id="contact"><div class="container cta-inner"><h2>Pellentesque suscipit <br> fringilla libero eu.</h2><a class="button" href="#services">Explore features <span>→</span></a></div></section>
+<?php include __DIR__ . '/includes/footer.php'; ?>
