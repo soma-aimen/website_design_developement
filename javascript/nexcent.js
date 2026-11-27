@@ -4,9 +4,8 @@
   const menuButton = document.querySelector('.menu-toggle');
   const navigation = document.querySelector('#primary-nav');
 
-  const savedTheme = localStorage.getItem('nexcent-theme');
-  const preferredDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  root.dataset.theme = savedTheme || (preferredDark ? 'dark' : 'light');
+  // Always start in light mode when the page is freshly opened.
+  root.dataset.theme = 'light';
 
   function updateThemeButton() {
     if (!themeButton) return;
@@ -21,7 +20,6 @@
 
   themeButton?.addEventListener('click', () => {
     root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
-    localStorage.setItem('nexcent-theme', root.dataset.theme);
     updateThemeButton();
   });
 

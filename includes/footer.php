@@ -6,12 +6,20 @@
         <span class="footer-logo-wrap"><img src="assets/Icon.png" alt="Nexcent logo"></span>
         <span>Nexcent</span>
       </a>
-      <p class="footer-copyright">Copyright © <?= date('Y'); ?> Landify UI Kit.<br>All rights reserved.</p>
+      <p class="footer-copyright">Copyright © <?= date('Y'); ?> Nexcent.<br>All rights reserved.</p>
       <div class="social-links" aria-label="Social media">
-        <a href="#home" aria-label="LinkedIn"></a>
-        <a href="#home" aria-label="Website"></a>
-        <a href="#home" aria-label="Facebook">f</a>
-        <a href="#home" aria-label="Instagram">◎</a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <img src="assets/TIcons.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <img src="assets/IIcons.png" alt="">
+        </a>
+        <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <img src="assets/WIcons.png" alt="">
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <img src="assets/YIcons.png" alt="">
+        </a>
       </div>
     </div>
     <div class="footer-links-column">
@@ -31,7 +39,16 @@
     </div>
     <div class="footer-newsletter">
       <h3>Stay up to date</h3>
-      <p>Follow the latest ideas, projects and updates.</p>
+      <form class="newsletter-form">
+        <label class="visually-hidden" for="newsletter-email">Your email address</label>
+        <input id="newsletter-email" type="email" placeholder="Your email address" autocomplete="email">
+        <button type="button" aria-label="Subscribe to newsletter">
+          <svg class="newsletter-send-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M22 2 11 13"></path>
+            <path d="m22 2-7 20-4-9-9-4 20-7Z"></path>
+          </svg>
+        </button>
+      </form>
     </div>
   </div>
 </footer>
